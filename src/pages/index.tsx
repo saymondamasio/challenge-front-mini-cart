@@ -1,9 +1,5 @@
 import { GetServerSideProps } from 'next'
 
-export default function Cart(){
-  return (
-    <div>
-      Cart
-    </div>
-  )
+export default function Cart() {
+  return <div>Cart</div>
 }
