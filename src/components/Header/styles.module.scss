@@ -1,0 +1,45 @@
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+
+  padding: 15px 40px;
+
+  box-shadow: 0 8px 6px -2px #eee;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 250px;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      gap: 20px;
+
+      list-style: none;
+
+      li > a {
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+  }
+
+  .buttonCartWrapper {
+    position: relative;
+  }
+
+  .actions {
+    display: flex;
+    gap: 35px;
+  }
+}
