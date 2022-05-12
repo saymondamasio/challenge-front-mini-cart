@@ -5,6 +5,10 @@
   right: -20px;
   top: 55px;
 
+  @media (max-width: 540px) {
+    top: 45px;
+  }
+
   box-shadow: -2px 0 5px #e5e5e5;
 
   background-color: #eee;
