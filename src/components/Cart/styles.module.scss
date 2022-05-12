@@ -1,0 +1,64 @@
+.cart {
+  width: 350px;
+
+  position: absolute;
+  right: -20px;
+  top: 55px;
+
+  box-shadow: -2px 0 5px #e5e5e5;
+
+  background-color: #eee;
+
+  ul {
+    margin-top: 10px;
+    height: 350px;
+
+    overflow-y: scroll;
+
+    background-color: #eee;
+  }
+
+  footer {
+    .totalOrder {
+      padding: 20px;
+      font-size: 1.1rem;
+
+      background-color: #e2e2e2;
+
+      text-align: center;
+
+      span.totalPrice {
+        font-weight: bold;
+      }
+    }
+
+    button.finishButton {
+      width: 100%;
+      height: 50px;
+
+      font-weight: bold;
+      color: #fff;
+
+      background-color: #14b329;
+
+      transition: filter 0.2s;
+
+      &:hover {
+        filter: brightness(0.8);
+      }
+    }
+  }
+}
+
+// triangulo indicativo
+.triangule {
+  position: absolute;
+
+  bottom: -21px;
+  right: -5px;
+
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  border-bottom: 20px solid #eee;
+}
