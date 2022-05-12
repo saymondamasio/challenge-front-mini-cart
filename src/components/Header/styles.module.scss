@@ -4,6 +4,10 @@
 
   padding: 15px 40px;
 
+  @media (max-width: 550px) {
+    padding: 15px;
+  }
+
   box-shadow: 0 8px 6px -2px #eee;
 
   display: flex;
@@ -12,20 +16,9 @@
 
   img {
     width: 250px;
-  }
 
-  nav {
-    ul {
-      display: flex;
-      gap: 20px;
-
-      list-style: none;
-
-      li > a {
-        &:hover {
-          color: #000;
-        }
-      }
+    @media (max-width: 540px) {
+      width: 150px;
     }
   }
 
@@ -41,5 +34,9 @@
   .actions {
     display: flex;
     gap: 35px;
+
+    @media (max-width: 1150px) {
+      gap: 10px;
+    }
   }
 }
